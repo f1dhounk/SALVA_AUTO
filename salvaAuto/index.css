@@ -1,6 +1,73 @@
 * {
     margin:0;
-    padding:0;
+    padding-top: 5;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
 
 @font-face{
@@ -8,6 +75,83 @@
     font-family: salva;
 }
 
-.body{
-    background-color: red;
+@font-face{
+    src: url('../salvaAuto/font/PlayfairDisplay-VariableFont_wght.ttf');
+    font-family: PlayfairDisplay;
 }
+  
+body{
+    background-color: #fefee2;
+    font-family: salva;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.swing:hover{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.logo{
+    background-image: url("../salvaAuto/img/_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 80px;
+}
+
+.salva{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 1.1rem;
+	text-transform: uppercase;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 0.29rem;
+}
+
+.other{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+}
+
+/*///////////////////////////////////////////////*/
+
+.logoAuto{
+    background-image: url("../salvaAuto/img/_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+
+.dom{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+	font-family: PlayfairDisplay;
+    letter-spacing: 0.3rem;
+}   

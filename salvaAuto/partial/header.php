@@ -24,7 +24,7 @@
         </div>
 
         <div class="other">
-            <a href="" target="_blank"> <span>Autres services</span> </a>
+            <div class="swing"><a href="" target="_blank"> <span>Autres services</span> </a></div>
         </div>
 
     </div>

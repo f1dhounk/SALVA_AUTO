@@ -4,16 +4,16 @@
 	
 	<div class="container">
 		<nav class="navbar">
-			<ul><li><a href="#home">Salva</a></li></ul>
+			<ul><li class="swing"><a href="#home" target="_blank">Salva</a></li></ul>
 
 			<ul>
-				<li><a href="#exterieur">Exterieur</a></li>
-				<li><a href="#interieur">Interieur</a></li>
-				<li><a href="#complet">Complet</a></li>
-				<li><a href="#maintenance">Maintenance</a></li>
+				<li class="swing"><a href="#exterieur" target="_blank">Exterieur</a></li>
+				<li class="swing"><a href="#interieur" target="_blank">Interieur</a></li>
+				<li class="swing"><a href="#complet" target="_blank">Complet</a></li>
+				<li class="swing"><a href="#maintenance" target="_blank">Maintenance</a></li>
 			</ul>
 
-			<ul><li><a href="#other">Autres services</a></li></ul>
+			<ul><li class="swing"><a href="#other">Autres services</a></li></ul>
 		</nav>
 
 		<section id="home">

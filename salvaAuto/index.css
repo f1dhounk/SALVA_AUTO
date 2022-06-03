@@ -71,12 +71,12 @@
 }
 
 @font-face{
-    src: url('../salvaAuto/font/NotoSerifDisplay-ExtraCondensed.ttf');
+    src: url('./font/NotoSerifDisplay-ExtraCondensed.ttf');
     font-family: salva;
 }
 
 @font-face{
-    src: url('../salvaAuto/font/PlayfairDisplay-VariableFont_wght.ttf');
+    src: url('./font/PlayfairDisplay-VariableFont_wght.ttf');
     font-family: PlayfairDisplay;
 }
 
@@ -161,7 +161,7 @@ section p {
 /*//////////////////////////////////////////////////////////*/
 
 .logoAuto{
-    background-image: url("../salvaAuto/img/_logo.png");
+    background-image: url("./img/_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 50%;
